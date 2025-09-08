@@ -12,6 +12,7 @@
     - [Dependency: Custom Ammo Categories Download](#dependency-custom-ammo-categories-download)
 - [CustomUnits Dependency Conflict Resolution](#customunits-dependency-conflict-resolution)
 - [IRTweaks Download](#irtweaks-download)
+- [BattleTech Performance Fix Download](#battletech-performance-fix-download)
 
 ## ModTek Download
 
@@ -76,6 +77,35 @@ To resolve the circular dependency issue between CAB-3025-HyadesRim and MechResi
       CustomUnits,
       CBTBehaviorsEnhanced,
       CustomVoices
+7. Repeat steps 1-5 for some other mods without sub-dependencies:
+   1. ColourfulFlashpoints
+   2. NavigationComputer
+   3. CommanderPortraitLoader
+   4. CPLHelper
+   5. cFixes
+   6. PanicSystem
+   7. PilotHealthPopup
+   8. CustomComponents
+   9. CustomSalvage
+   10. Timeline
+   11. LootMagnet
+   12. CAB-Clan-GoldenCentury
+       CAB-Clan-Modern
+       CAB-CU
+       CAB-IS-CivilWar
+       CAB-IS-ClanInvasion
+       CAB-IS-Customs
+       CAB-IS-DarkAge
+       CAB-IS-StarLeague
+       CAB-Maps
+       CAB-Misc
+       CAB-Tank
+       1. These had 1 dependency in the Custom group that I can't remember ... open up the game to have ModTek state the missing dependency.
+8. Repeat steps 1-5 for other mods with sub-dependencies:
+   1. BiggerDrops
+      1. MissionControl
+   2. Abilifier
+      1. CustomActivatableEquipment
 
 ### CustomUnits Dependency Conflict Resolution
 
@@ -92,6 +122,11 @@ To resolve the conflict between CustomUnits and MechResizer:
 3. Extract the downloaded archive to your BattleTech game mods folder
 4. In mod.json, modify "DisableCampaign" to be false
 
+## BattleTech Performance Fix Download
 
+1. Go
+   to [BattleTech Performance Fix Releases](https://github.com/BattletechModders/BattletechPerformanceFix/releases/tag/latest)
+2. Download the latest release
+3. Extract the downloaded archive to your BattleTech game mods folder
 
 
