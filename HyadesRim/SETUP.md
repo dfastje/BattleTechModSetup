@@ -124,8 +124,7 @@ To resolve the conflict between CustomUnits and MechResizer:
 
 ## BattleTech Performance Fix Download
 
-1. Go
-   to [BattleTech Performance Fix Releases](https://github.com/BattletechModders/BattletechPerformanceFix/releases/tag/latest)
+1. Go to [BattleTech Performance Fix Releases](https://github.com/BattletechModders/BattletechPerformanceFix/releases/tag/latest)
 2. Download the latest release
 3. Extract the downloaded archive to your BattleTech game mods folder
 
